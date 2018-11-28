@@ -1,0 +1,41 @@
+img.navbar-brand{
+    padding:0
+}
+.login-form{
+    display:none !important
+}
+.login-form-mobile{
+    width:60%;
+    margin:auto;
+    text-align:left
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .login-form-mobile
+    {
+        width:40%;
+        margin:auto;
+        text-align:left
+    }
+}
+@media (min-width: 992px){
+    .login-form-mobile{
+        display:none !important
+    }
+    .login-form{
+        width:800px;
+        height:231px;
+       background-image:url("../../img/login/login-bg.png");
+
+    /*    border: 1px solid #000;*/
+        display:block !important
+    }
+    .login-form > form{
+        width:220px;
+        height:120px;
+        text-align:initial;
+        position:relative;
+        left:160px;
+        top:100px;
+        line-height:35px;
+    }
+}

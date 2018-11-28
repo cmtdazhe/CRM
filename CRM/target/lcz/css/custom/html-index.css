@@ -1,0 +1,15 @@
+body {
+	padding-bottom: 70px;
+}
+
+/*[data-toggle="collapse"] {
+	cursor: pointer;
+}*/
+
+iframe {
+	width: 100%;
+}
+
+.copy {
+	float: none !important;
+}
