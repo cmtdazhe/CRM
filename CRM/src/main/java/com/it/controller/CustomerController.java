@@ -1,4 +1,4 @@
-package com.it.controller;
+﻿package com.it.controller;
 
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
@@ -21,7 +21,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-@Controller
+/；；；；
 public class CustomerController {
     @Autowired
     private CustomerService customerService;
